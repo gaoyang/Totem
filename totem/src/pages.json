@@ -1,0 +1,37 @@
+{
+    "pages": [
+        {
+            "path": "pages/home/index",
+            "style": {
+                "navigationBarTitleText": "Totem"
+            }
+        },
+        {
+            "path": "pages/my/index",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "Totem",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#efffef",
+        "selectedColor": "#29bfa3",
+        "backgroundColor": "#2b2b2d",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/home/index"
+            },
+            {
+                "text": "我的",
+                "pagePath": "pages/my/index"
+            }
+        ]
+    }
+}
